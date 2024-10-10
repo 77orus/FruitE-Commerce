@@ -1,32 +1,20 @@
 import 'package:flutter/material.dart';
+import 'package:fruietecommerceapp/core/routes/on_generate_routes.dart';
+import 'package:fruietecommerceapp/features/splash_screen/ui/screens/splash_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const FruitApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class FruitApp extends StatelessWidget {
+  const FruitApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      home: const MyHomePage(),
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      onGenerateRoute: onGenerateRoute,
+      initialRoute: SplashScreen.routeName,
     );
-  }
-}
-
-
-class MyHomePage extends StatelessWidget {
-  const MyHomePage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const Placeholder();
   }
 }
