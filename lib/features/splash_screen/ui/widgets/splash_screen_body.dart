@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:fruietecommerceapp/core/helpers/cache_helper.dart';
 import 'package:fruietecommerceapp/core/images/imagesApp.dart';
+import 'package:fruietecommerceapp/features/auth/ui/screens/login_screen.dart';
 import 'package:fruietecommerceapp/features/on_boarding/ui/screens/on_boarding_screen.dart';
 import 'package:svg_flutter/svg.dart';
 
@@ -24,7 +26,7 @@ class _SplashScreenBodyState extends State<SplashScreenBody> {
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
         Row(
-          mainAxisAlignment: MainAxisAlignment.start,
+          mainAxisAlignment: MainAxisAlignment.end,
           children: [
             SvgPicture.asset(Assets.imagesPattern),
           ],
@@ -40,7 +42,11 @@ class _SplashScreenBodyState extends State<SplashScreenBody> {
 
   void executeFunctions() {
     Future.delayed(const Duration(seconds: 3), () {
-      Navigator.pushReplacementNamed(context, OnBoardingScreen.routeName);
+      if (CacheHelper.getData(key: "onBoarding") == true) {
+        Navigator.pushReplacementNamed(context, LoginScreen.routeName);
+      } else {
+        Navigator.pushReplacementNamed(context, OnBoardingScreen.routeName);
+      }
     });
   }
 }

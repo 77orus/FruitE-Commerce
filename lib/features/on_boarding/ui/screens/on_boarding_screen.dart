@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fruietecommerceapp/features/on_boarding/ui/widgets/onboarding_screen_body.dart';
 
 class OnBoardingScreen extends StatelessWidget {
   const OnBoardingScreen({super.key});
@@ -7,10 +8,8 @@ class OnBoardingScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: Text('On Boarding Screen'),
-      ),
+    return const Scaffold(
+      body: OnBoardingBody(),
     );
   }
 }
