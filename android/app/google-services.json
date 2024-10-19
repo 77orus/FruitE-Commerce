@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "720200609413",
+    "project_id": "fruithup-96d07",
+    "storage_bucket": "fruithup-96d07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720200609413:android:74a3af21429f36caec03ec",
+        "android_client_info": {
+          "package_name": "com.example.new_fruit_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEBVIhTYecq4HkF1PuvefaR-233NMtnSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
