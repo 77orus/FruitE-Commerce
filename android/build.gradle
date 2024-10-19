@@ -16,5 +16,8 @@ subprojects {
 tasks.register("clean", Delete) {
     delete rootProject.buildDir
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 5771338dd9c42a6b6cd6322dd2a509178688f089

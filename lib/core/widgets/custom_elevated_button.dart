@@ -23,7 +23,11 @@ class CustomElevatedButton extends StatelessWidget {
       ),
       child: Text(
         text,
+<<<<<<< HEAD
         style: TextStyles.bold16.copyWith(color: Colors.white),
+=======
+        style: TextStyles.subTitle.copyWith(color: Colors.white),
+>>>>>>> 5771338dd9c42a6b6cd6322dd2a509178688f089
       ),
     );
   }

@@ -28,6 +28,7 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+<<<<<<< HEAD
   bloc: ^8.1.4
   cloud_firestore: ^5.4.4
   cupertino_icons: ^1.0.6
@@ -45,6 +46,14 @@ dependencies:
   get_it: ^8.0.0
   google_sign_in: ^6.2.1
   modal_progress_hud_nsn: ^0.5.1
+=======
+  cupertino_icons: ^1.0.6
+  dots_indicator: ^3.0.0
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+>>>>>>> 5771338dd9c42a6b6cd6322dd2a509178688f089
   shared_preferences: ^2.3.2
   svg_flutter: ^0.0.1
 

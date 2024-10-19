@@ -6,6 +6,7 @@ class Assets {
   /// assets/images/appicon.png
   static const String imagesAppicon = "assets/images/appicon.png";
 
+<<<<<<< HEAD
   /// Assets for imagesApple
   /// assets/images/apple.svg
   static const String imagesApple = "assets/images/apple.svg";
@@ -18,14 +19,19 @@ class Assets {
   /// assets/images/facbook.svg
   static const String imagesFacbook = "assets/images/facbook.svg";
 
+=======
+>>>>>>> 5771338dd9c42a6b6cd6322dd2a509178688f089
   /// Assets for imagesFruitbasket
   /// assets/images/fruitbasket.svg
   static const String imagesFruitbasket = "assets/images/fruitbasket.svg";
 
+<<<<<<< HEAD
   /// Assets for imagesGoogle
   /// assets/images/google.svg
   static const String imagesGoogle = "assets/images/google.svg";
 
+=======
+>>>>>>> 5771338dd9c42a6b6cd6322dd2a509178688f089
   /// Assets for imagesLogo
   /// assets/images/logo.svg
   static const String imagesLogo = "assets/images/logo.svg";

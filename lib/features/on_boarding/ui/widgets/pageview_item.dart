@@ -41,7 +41,11 @@ class PageviewItem extends StatelessWidget {
         Text(
           subTitle,
           textAlign: TextAlign.center,
+<<<<<<< HEAD
           style: TextStyles.semiBold16,
+=======
+          style: TextStyles.subTitle,
+>>>>>>> 5771338dd9c42a6b6cd6322dd2a509178688f089
         ),
       ],
     );

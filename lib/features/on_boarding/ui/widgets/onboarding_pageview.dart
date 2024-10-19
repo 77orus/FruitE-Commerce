@@ -19,17 +19,28 @@ class OnboardingPageview extends StatelessWidget {
           backgroundImage: Assets.imagesVector2,
           image: Assets.imagesFruitbasket,
           subTitle:
+<<<<<<< HEAD
               "إكتشف تجربة تسوق فريدة مع FruitHUB. استكشف \nمجموعتنا الواسعة من الفواكه الطازجة الممتازة\n واحصل على أفضل العروض والجودة العالية.",
+=======
+              "كتشف تجربة تسوق فريدة مع FruitHUB. استكشف \nمجموعتنا الواسعة من الفواكه الطازجة الممتازة\n واحصل على أفضل العروض والجودة العالية.",
+>>>>>>> 5771338dd9c42a6b6cd6322dd2a509178688f089
           title: TextRich(),
         ),
         PageviewItem(
           backgroundImage: Assets.imagesVector,
           image: Assets.imagesPineapple,
           subTitle:
+<<<<<<< HEAD
               "إكتشف تجربة تسوق فريدة مع FruitHUB.\n استكشف مجموعتنا الواسعة من الفواكه الطازجة الممتازة\n واحصل على أفضل العروض والجودة العالية.",
           title: Text(
             "أبحث وتسوق",
             style: TextStyles.bold23,
+=======
+              "كتشف تجربة تسوق فريدة مع FruitHUB. استكشف مجموعتنا الواسعة من الفواكه الطازجة الممتازة واحصل على أفضل العروض والجودة العالية.",
+          title: Text(
+            "أبحث وتسوق",
+            style: TextStyles.title,
+>>>>>>> 5771338dd9c42a6b6cd6322dd2a509178688f089
           ),
         ),
       ],

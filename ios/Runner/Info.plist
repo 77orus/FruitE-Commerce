@@ -5,7 +5,11 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
+<<<<<<< HEAD
 	<string>New Fruit App</string>
+=======
+	<string>Fruietecommerceapp</string>
+>>>>>>> 5771338dd9c42a6b6cd6322dd2a509178688f089
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -13,7 +17,11 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
+<<<<<<< HEAD
 	<string>new_fruit_app</string>
+=======
+	<string>fruietecommerceapp</string>
+>>>>>>> 5771338dd9c42a6b6cd6322dd2a509178688f089
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>

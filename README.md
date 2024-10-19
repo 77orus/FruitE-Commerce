@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # new_fruit_app
+=======
+# fruietecommerceapp
+>>>>>>> 5771338dd9c42a6b6cd6322dd2a509178688f089
 
 A new Flutter project.
 
