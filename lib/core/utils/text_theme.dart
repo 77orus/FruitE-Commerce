@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 class TextStyles {
-<<<<<<< HEAD
   // حجم 13
   static TextStyle regular13 = const TextStyle(
     fontSize: 13,
@@ -144,17 +143,5 @@ class TextStyles {
   static TextStyle semiBold34 = const TextStyle(
     fontSize: 34,
     fontWeight: FontWeight.w600,
-=======
-  static TextStyle title = const TextStyle(
-    fontSize: 23,
-    fontWeight: FontWeight.w700,
-    color: Color(0xFF0C0D0D),
-  );
-
-  static TextStyle subTitle = const TextStyle(
-    fontSize: 15,
-    fontWeight: FontWeight.w600,
-    color: Color(0xFF4E5456),
->>>>>>> 5771338dd9c42a6b6cd6322dd2a509178688f089
   );
 }

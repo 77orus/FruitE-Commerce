@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-<<<<<<< HEAD
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:fruietecommerceapp/core/helpers/dependency_injection.dart';
 import 'package:fruietecommerceapp/core/widgets/custom_app_bar.dart';
@@ -9,8 +8,6 @@ import 'package:fruietecommerceapp/features/auth/logic/signIn_cubit/cubit/signin
 import 'package:fruietecommerceapp/features/auth/ui/widgets/login_screen_body.dart';
 import 'package:fruietecommerceapp/features/home/ui/screens/home_Screen.dart';
 import 'package:modal_progress_hud_nsn/modal_progress_hud_nsn.dart';
-=======
->>>>>>> 5771338dd9c42a6b6cd6322dd2a509178688f089
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
@@ -19,7 +16,6 @@ class LoginScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-<<<<<<< HEAD
     return BlocProvider(
       create: (context) => SigninCubit(getIt.get<AuthRepository>()),
       child: Scaffold(
@@ -42,8 +38,5 @@ class LoginScreen extends StatelessWidget {
         ),
       ),
     );
-=======
-    return const Placeholder();
->>>>>>> 5771338dd9c42a6b6cd6322dd2a509178688f089
   }
 }
